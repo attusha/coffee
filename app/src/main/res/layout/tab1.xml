@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/bar" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Акции"
+        android:textSize="36dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:background="#980404"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ccc"
+                android:text="Button 1"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:background="#000"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cof2"
+                android:text="Button 2"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:background="#16D11C"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cof1"
+                android:text="Button 3"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:background="#00BCD4"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cof"
+                android:text="Button 4"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:background="#9C27B0"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ccc"
+                android:text="Button 5"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>

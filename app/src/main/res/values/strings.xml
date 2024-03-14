@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">coffee</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1"></string>
+    <string name="tab_text_2"></string>
+    <string name="tab_text_3"></string>
+    <string name="tab_text_4"></string>
+</resources>
